@@ -22,11 +22,13 @@ resource "azurerm_sql_server" "example" {
     git_last_modified_at = "2020-06-19 21:14:50"
     git_last_modified_by = "Adin.Ermie@outlook.com"
     git_modifiers        = "Adin.Ermie/nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "e5ec3432-e61f-4244-b59e-9ecc24ddd4cb"
     }, {
     yor_name = "example"
+    }, {
+    owner = "KJ"
   })
 }
 
@@ -66,10 +68,11 @@ resource "azurerm_mysql_server" "example" {
     git_last_modified_at = "2020-06-19 21:14:50"
     git_last_modified_by = "Adin.Ermie@outlook.com"
     git_modifiers        = "Adin.Ermie/nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "1ac18c16-09a4-41c9-9a66-6f514050178e"
     yor_name             = "example"
+    owner                = "KJ"
   }
 }
 
@@ -92,10 +95,11 @@ resource "azurerm_postgresql_server" "example" {
     git_last_modified_at = "2020-06-19 21:14:50"
     git_last_modified_by = "Adin.Ermie@outlook.com"
     git_modifiers        = "Adin.Ermie/nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "9eae126d-9404-4511-9c32-2243457df459"
     yor_name             = "example"
+    owner                = "KJ"
   }
 }
 

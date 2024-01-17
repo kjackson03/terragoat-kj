@@ -33,10 +33,12 @@ resource "aws_elb" "weblb" {
     git_last_modified_at = "2020-06-16 14:46:24"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "b4a83ce9-9a45-43b4-b6d9-1783c282f702"
     }, {
     yor_name = "weblb"
+    }, {
+    owner = "KJ"
   })
 }
