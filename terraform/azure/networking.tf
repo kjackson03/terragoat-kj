@@ -9,10 +9,11 @@ resource "azurerm_virtual_network" "example" {
     git_last_modified_at = "2020-06-17 12:59:55"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "eb19f165-9c21-4a7a-96e5-5bb557a38228"
     yor_name             = "example"
+    owner                = "KJ"
   }
 }
 
@@ -39,10 +40,11 @@ resource "azurerm_network_interface" "ni_linux" {
     git_last_modified_at = "2020-06-17 15:48:15"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "2647f099-dff8-4514-8cef-96159380c02a"
     yor_name             = "ni_linux"
+    owner                = "KJ"
   }
 }
 
@@ -62,10 +64,11 @@ resource "azurerm_network_interface" "ni_win" {
     git_last_modified_at = "2020-06-17 15:48:15"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "2b5dbf28-04fb-4151-a637-a731bbe7ed1d"
     yor_name             = "ni_win"
+    owner                = "KJ"
   }
 }
 
@@ -103,10 +106,11 @@ resource azurerm_network_security_group "bad_sg" {
     git_last_modified_at = "2021-05-02 10:06:10"
     git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "1a591ba4-d969-4572-9704-87b5c55c0ba3"
     yor_name             = "bad_sg"
+    owner                = "KJ"
   }
 }
 
@@ -120,10 +124,11 @@ resource azurerm_network_watcher "network_watcher" {
     git_last_modified_at = "2020-06-17 12:59:55"
     git_last_modified_by = "nimrodkor@gmail.com"
     git_modifiers        = "nimrodkor"
-    git_org              = "bridgecrewio"
-    git_repo             = "terragoat"
+    git_org              = "kjackson03"
+    git_repo             = "terragoat-kj"
     yor_trace            = "3da368fc-723f-43d2-8e82-08dcc91e5094"
     yor_name             = "network_watcher"
+    owner                = "KJ"
   }
 }
 
@@ -147,5 +152,6 @@ resource azurerm_network_watcher_flow_log "flow_log" {
     git_repo             = "terragoat-kj"
     yor_trace            = "33a7212e-7f1a-49fc-af73-8e525c5546ec"
     yor_name             = "flow_log"
+    owner                = "KJ"
   }
 }
