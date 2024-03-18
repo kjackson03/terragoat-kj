@@ -30,10 +30,10 @@ resource azurerm_linux_virtual_machine "linux_machine" {
     terragoat   = true
     environment = var.environment
     }, {
-    git_commit           = "de3bb777f967989c2c3332faea16cb614c55ccc9"
+    git_commit           = "5c6b5d60a8aa63a5d37e60f15185d13a967f0542"
     git_file             = "terraform/azure/instance.tf"
-    git_last_modified_at = "2020-06-17 15:48:15"
-    git_last_modified_by = "nimrodkor@gmail.com"
+    git_last_modified_at = "2021-05-02 10:06:10"
+    git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "nimrodkor"
     git_org              = "kjackson03"
     git_repo             = "terragoat-kj"
@@ -69,10 +69,10 @@ resource azurerm_windows_virtual_machine "windows_machine" {
     terragoat   = true
     environment = var.environment
     }, {
-    git_commit           = "de3bb777f967989c2c3332faea16cb614c55ccc9"
+    git_commit           = "5c6b5d60a8aa63a5d37e60f15185d13a967f0542"
     git_file             = "terraform/azure/instance.tf"
-    git_last_modified_at = "2020-06-17 15:48:15"
-    git_last_modified_by = "nimrodkor@gmail.com"
+    git_last_modified_at = "2021-05-02 10:06:10"
+    git_last_modified_by = "nimrodkor@users.noreply.github.com"
     git_modifiers        = "nimrodkor"
     git_org              = "kjackson03"
     git_repo             = "terragoat-kj"
